@@ -1,10 +1,10 @@
 <aiml version="1.0">
 
     <category>
-        <pattern>FOFOCAR</pattern>
+        <pattern>PALESTRA</pattern>
         <template>
 
-            <learn>fofocas.aiml</learn>
+            <learn>p-*.aiml</learn>
 
         </template>
     </category>
