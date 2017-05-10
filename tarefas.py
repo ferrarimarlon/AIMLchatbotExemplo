@@ -9,8 +9,8 @@ import smtplib
 def mandar_email(mensagem):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login("mfmarlonferrari@gmail.com", "p9s800dx")
-    server.sendmail("mfmarlonferrari@gmail.com", "mfmarlonferrari@gmail.com", mensagem)
+    server.login("teste@gmail.com", "senhaAqui")
+    server.sendmail("teste@gmail.com", "teste@gmail.com", mensagem)
     server.quit()
 
 
